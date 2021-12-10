@@ -1,3 +1,7 @@
+# This fork
+
+All http headers are readable.
+
 # SockJS-node
 
 [![npm version](https://img.shields.io/npm/v/sockjs.svg?style=flat-square)](https://www.npmjs.com/package/sockjs)[![Dependencies](https://img.shields.io/david/sockjs/sockjs-node.svg?style=flat-square)](https://david-dm.org/sockjs/sockjs-node)
@@ -30,7 +34,7 @@ Work in progress:
   * [SockJS-go](https://github.com/igm/sockjs-go/)
   * [actix/sockjs](https://github.com/actix/sockjs) for Rust
 
-⚠️️ **ATTENTION** This is pre-release documentation. The documentation for the 
+⚠️️ **ATTENTION** This is pre-release documentation. The documentation for the
 latest stable release is at: https://github.com/sockjs/sockjs-node/tree/v0.3.19 ️⚠️
 
 # What is SockJS?
@@ -133,7 +137,7 @@ Where `options` is a hash which can contain:
 
 <dt>transports (Array of strings)</dt>
 <dd>List of transports to enable. Select from `eventsource`, `htmlfile`,
-`jsonp-polling`, `websocket`, `websocket-raw`, `xhr-polling`, 
+`jsonp-polling`, `websocket`, `websocket-raw`, `xhr-polling`,
 and `xhr-streaming`.</dd>
 
 <dt>jsessionid (boolean or function)</dt>
@@ -169,7 +173,7 @@ and `xhr-streaming`.</dd>
 <dd>Enabling this option will prevent
   <a href="https://en.wikipedia.org/wiki/Cross-origin_resource_sharing">CORS</a>
   headers from being included in the HTTP response. Can be used when the
-  sockjs client is known to be connecting from the same origin as the 
+  sockjs client is known to be connecting from the same origin as the
   sockjs server. This also disables the iframe HTML endpoint.</dd>
 </dl>
 
